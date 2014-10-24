@@ -23,7 +23,7 @@ authorizations: &AUTHORIZATIONS
 development:
   host: 192.168.70.10
   port: 389
-  attribute: cn
+  attribute: uid
   base: ou=funcionarios,dc=unibague,dc=edu,dc=co
   admin_user: cn=admin,dc=unibague,dc=edu,dc=co
   admin_password: admin_password
@@ -33,7 +33,7 @@ development:
 test:
   host: 192.168.70.10
   port: 389
-  attribute: cn
+  attribute: uid
   base: ou=funcionarios,dc=unibague,dc=edu,dc=co
   admin_user: cn=admin,dc=unibague,dc=edu,dc=co
   admin_password: admin_password
@@ -43,7 +43,7 @@ test:
 production:
   host: 192.168.70.10
   port: 389
-  attribute: cn
+  attribute: uid
   base: ou=funcionarios,dc=unibague,dc=edu,dc=co
   admin_user: cn=admin,dc=unibague,dc=edu,dc=co
   admin_password: admin_password
