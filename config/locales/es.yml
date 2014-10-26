@@ -1,6 +1,6 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
+# Los archivos en el directorio config/locales son usados para la internacionalización
+# y son cargados automaticamente por Rails. Si quiere utilizar otros locales diferentes
+# al Español, agregue los archivos necesarios en este directorio.
 #
 # To use the locales, use `I18n.t`:
 #
@@ -19,9 +19,9 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: 'Hello world'
-  username: 'username'
-  password: 'password'
-  remember_me: 'remember me'
-  sign_in: 'sign in'
+es:
+  hello: 'Hola mundo'
+  username: 'usuario'
+  password: 'contraseña'
+  remember_me: 'recordarme'
+  sign_in: 'iniciar sesión'

@@ -1,13 +1,16 @@
 Rails.application.routes.draw do
-  devise_for :users
-  
-  get 'dashboard(/*path)' => 'dashboard#index'
+  scope '(:locale)', { :locale => /en|es/ } do
+    devise_for :users
+    
+    get 'dashboard(/*path)' => 'dashboard#index'
+  end
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  get '(:locale)' => 'dashboard#index'
   root 'dashboard#index'
 
   # Example of regular route:
